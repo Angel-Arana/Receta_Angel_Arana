@@ -23,12 +23,19 @@ h1{
     color: black;
     font-family: "Italiana", serif;
     font-size: 100px;
+    
+    
   
+}
+
+h2{
+    text-align: center;
 }
 
 .sopa{
     text-align: center;
     margin-left: 10%;
+    
 
 
 }
@@ -37,6 +44,8 @@ h1{
 
     text-align: center;
     margin-left: 10%
+    text-align: right;
+    
     
 }
 
@@ -75,10 +84,29 @@ p{
 
 .fondo{
     background-image: url("../img/Fondo nuevo.png");
+    width: 100%;
 
 }
 
 .cuadro img{
     width: 200px;
 
+}
+
+.img-principal{
+    width: 100%;
+
+}
+.ingredientes ul{
+    list-style-type: none;
+}
+.ingredientes ul li{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    list-style-type: none;
+
+}
+
+.ingredientes ul li .icono{
+    margin right: 20px;
 }
