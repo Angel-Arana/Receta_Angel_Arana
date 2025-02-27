@@ -1,0 +1,84 @@
+/*CSS */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+
+}
+
+body{
+    color: black;
+    font-family: "Italiana", serif;
+}
+
+.cuadro{
+    background-image: linear-gradient(to right, rgba(158,0,0,1), rgba(56,0,0,1));
+    height: 30%;
+
+}
+
+h1{
+    color: black;
+    font-family: "Italiana", serif;
+    font-size: 100px;
+  
+}
+
+.sopa{
+    text-align: center;
+    margin-left: 10%;
+
+
+}
+
+.lista h1{
+
+    text-align: center;
+    margin-left: 10%
+    
+}
+
+.fila{
+    display:block;
+
+
+}
+
+.columna{
+    display: inline-block;
+
+}
+
+.titulo h1{
+    text-align: center;
+    background-color: #CACACA;
+    width:40%;
+    margin-left:35%
+    
+}
+
+.contenido{
+
+    text-align: center;
+    background-color: #CACACA;
+    width:50%;
+    margin-left:30%
+
+    
+}
+
+p{
+    font-size: 50px;
+}
+
+.fondo{
+    background-image: url("../img/Fondo nuevo.png");
+
+}
+
+.cuadro img{
+    width: 200px;
+
+}
